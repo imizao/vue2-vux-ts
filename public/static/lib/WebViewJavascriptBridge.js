@@ -10,7 +10,7 @@
   var receiveMessageQueue = [];
   var messageHandlers = {};
 
-  var CUSTOM_PROTOCOL_SCHEME = "vpclub";
+  var CUSTOM_PROTOCOL_SCHEME = "xxxx";
   var QUEUE_HAS_MESSAGE = "__QUEUE_MESSAGE__/";
 
   var responseCallbacks = {};

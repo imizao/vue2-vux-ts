@@ -19,8 +19,8 @@ Vue.prototype.$globalEvent = new Vue;
 
 //可根据具体环境配置
 /* if(location.href.indexOf('localhost') > -1 ){
-  Vue.config.SERVER_API = 'http://kf.vpclub.cn/guangmei/api';
-  Vue.config.imgBase = 'http://kf.vpclub.cn';
+  Vue.config.SERVER_API = 'http://kf.xxxx.cn/guangmei/api';
+  Vue.config.imgBase = 'http://kf.xxxx.cn';
 }else{
   Vue.config.SERVER_API = getHostUrl() +'/guangmei/api';
   Vue.config.imgBase  = getHostUrl();

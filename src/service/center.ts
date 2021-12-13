@@ -1,5 +1,4 @@
 import request, { request as http } from '@/utils/request'
-import { AxiosPromise } from 'axios'
 
 //审批列表
 export function getApprovalList(data: Object) {
